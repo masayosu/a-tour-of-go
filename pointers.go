@@ -4,7 +4,8 @@ import "fmt"
 
 func main() {
 	i, j := 42, 2701
-	p := &i
+	var p *int
+	p = &i
 	fmt.Println(*p)
 	fmt.Println(p)
 
